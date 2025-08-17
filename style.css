@@ -3,9 +3,8 @@ body {
     background-color: #F9FAF8;
     flex-wrap: wrap;
     height: 933px;
-
-    /* padding: 100px; */
-    /* flex-direction: column; */
+    /* gap: 23px; */
+    flex-direction: column;
 }
 
 .header {
@@ -13,7 +12,7 @@ body {
     height: 210px;
     padding: 5px 480px;
     margin-bottom: 18px;
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 
 .links {
@@ -92,15 +91,14 @@ body {
 }
 
 .card-container {
-    flex-grow: 1;
-    padding: 5px 480px;
 
-    /* padding-bottom: 20px; */
+    padding: 5px 480px;
     height: 320;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
+    margin-bottom: 25px;
 }
 
 .card {
@@ -138,7 +136,8 @@ body {
 }
 
 .quote-container {
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    margin-bottom: 25px;
     padding: 5px 480px;
     background-color: #E5E7EB;
     display: flex;
@@ -170,7 +169,7 @@ body {
 }
 
 .call-container {
-    flex-grow: 1;
+    /* flex-grow: 1; */
     padding: 5px 480px;
     height: 150px;
     /* border: 5px solid black; */
@@ -202,8 +201,9 @@ body {
 }
 
 .copy-right-container {
-    flex-grow: 1;
-    align-self: flex-end;
+
+    margin-top: auto;
+    flex: 0;
     padding: 8px;
     background-color: #1F2937;
     display: flex;
