@@ -1,18 +1,12 @@
 body {
-    display: flex;
     background-color: #F9FAF8;
-    flex-wrap: wrap;
-    height: 933px;
-    /* gap: 23px; */
-    flex-direction: column;
 }
 
 .header {
     background-color: #1F2937;
-    height: 210px;
-    padding: 5px 480px;
+    height: 325px;
+    padding: 5px 420px;
     margin-bottom: 18px;
-    /* flex-grow: 1; */
 }
 
 .links {
@@ -22,23 +16,23 @@ body {
 
 .top-bar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .link,
 .description {
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .intro {
-    margin-top: 8px;
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
 }
 
 .image-holder {
-    width: 350px;
-    height: 160px;
+    width: 388px;
+    height: 200px;
     background-color: rgb(168, 168, 168);
     display: flex;
     justify-content: center;
@@ -63,46 +57,48 @@ body {
 }
 
 .statement {
-    font-size: 30px;
+    font-size: 36px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
 .logo {
-    font-size: 18px;
+    font-size: 24px;
     color: #F9FAF8;
 }
 
 .intro-button {
     width: 100px;
-    height: 24px;
+    height: 28px;
     background-color: #3882F6;
     border: 0cm;
     border-radius: 5px;
     color: #E5E7EB;
     font-weight: 900;
     font-size: 15px;
-    margin-top: 10px;
+    margin-top: auto;
     cursor: pointer;
 }
 
 .hero {
     width: 360px;
+    display: flex;
+    flex-direction: column;
 }
 
 .card-container {
 
-    padding: 5px 480px;
+    /* padding: 5px 480px; */
     height: 320;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 25px;
     margin-bottom: 25px;
 }
 
 .card {
-    width: 145px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,8 +109,8 @@ body {
 .figure {
     /* margin-left: 20px; */
 
-    width: 110px;
-    height: 69px;
+    width: 190px;
+    height: 120px;
     border: 2px solid #3882F6;
     border-radius: 5px;
 }
@@ -132,11 +128,11 @@ body {
 
 .cards {
     display: flex;
-    gap: 50px;
+    gap: 120px;
 }
 
 .quote-container {
-    /* flex-grow: 1; */
+
     margin-bottom: 25px;
     padding: 5px 480px;
     background-color: #E5E7EB;
