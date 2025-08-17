@@ -2,9 +2,9 @@
 .header
 {
     background-color:#1F2937 ;
-    height: 260px;
-    padding: 5px 400px;
-    margin-bottom: 6px;
+    height: 210px;
+    padding: 5px 480px;
+    margin-bottom: 10px;
 }
 .links
 {
@@ -19,7 +19,7 @@
 
 .link ,.description
 {
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .intro
@@ -31,8 +31,8 @@
 
 .image-holder
 {
-    width: 400px;
-    height: 213px;
+    width: 350px;
+    height: 160px;
     background-color:rgb(168, 168, 168) ;
     display: flex;
     justify-content: center;
@@ -41,6 +41,7 @@
 
 .logo,.statement,.link,.description,.image-text,.link a
 {
+    font-family: 'Roboto';
     color: #E5E7EB;
 }
 
@@ -51,19 +52,19 @@
 
 .statement
 {
-    font-size: 48px;
+    font-size: 30px;
     color: #F9FAF8;
     font-weight: 900;
 }
 .logo
 {
-    font-size: 24px;
+    font-size: 18px;
     color: #F9FAF8;
 }
 .intro-button
 {
     width: 100px;
-    height: 30px;
+    height: 24px;
     background-color: #3882F6;
     border: 0cm;
     border-radius: 5px;
@@ -71,15 +72,17 @@
     font-weight: 900;
     font-size: 15px;
     margin-top: 10px;
+    cursor: pointer;
 }
 .hero
 {
-    width:400px;
+    width:360px;
     /* border: 5px solid red; */
 }
 
 .card-container
 {
+    padding-bottom: 20px;
     height: 320;
     display: flex;
     flex-direction: column;
@@ -89,29 +92,31 @@
 
 .card
 {
-    width: 155px;
+    width: 145px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     text-align: center;
     gap: 5px;
 }
 .figure
 {
-    width: 150px;
-    height: 100px;
+    /* margin-left: 20px; */
+  
+    width: 110px;
+    height: 69px;
     border: 2px solid #3882F6 ;
     border-radius: 5px;
 }
 .caption
 {
-    font-size: 18px;
+    font-size: 15px;
     color: #1F2937;
 }
 
 .info
 {
-    font-size: 36px;
+    font-size: 22px;
     color: #1F2937;
     font-weight: 900;
 }
@@ -132,16 +137,17 @@
 
 .quote-holder
 {
-    width: 790px;
-    padding: 20px 0px;
+    width: 700px;
+    padding: 35px 0px;
     display: flex;
     flex-direction: column;
 }
 .quote
 {
-    font-size: 36px;
+    font-size: 26px;
     font-style:italic;
-    font-weight: lighter;
+    font-weight:lighter;
+    font-family: 'Roboto';
     color: #1F2937;
 }
 
