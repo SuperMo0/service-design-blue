@@ -1,10 +1,21 @@
 
+body
+{
+    display: flex;
+    background-color:#F9FAF8;
+    flex-wrap: wrap;
+    height: 933px;
+
+    /* padding: 100px; */
+    /* flex-direction: column; */
+}
 .header
 {
     background-color:#1F2937 ;
     height: 210px;
     padding: 5px 480px;
     margin-bottom: 18px;
+    flex-grow: 1;
 }
 .links
 {
@@ -39,7 +50,7 @@
     align-items: center;
 }
 
-.logo,.statement,.link,.description,.image-text,.link a
+.logo,.statement,.link,.description,.image-text,.link a,.call-bold,.call-light,.copy-right-text
 {
     font-family: 'Roboto';
     color: #E5E7EB;
@@ -82,7 +93,10 @@
 
 .card-container
 {
-    padding-bottom: 20px;
+    flex-grow: 1;
+    padding: 5px 480px;
+
+    /* padding-bottom: 20px; */
     height: 320;
     display: flex;
     flex-direction: column;
@@ -129,11 +143,12 @@
 
 .quote-container
 {
+    flex-grow: 1;
+    padding: 5px 480px;
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
 }
 
 .quote-holder
@@ -159,7 +174,60 @@
     font-weight: 900px;
     font-size: 22px;
 
-
 }
+
+.call-container
+{
+    flex-grow: 1;
+    padding: 5px 480px;
+    height: 150px;
+    /* border: 5px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box
+{
+    background-color: #3882F6;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.call-button
+{
+    width: 100px;
+    height: 28px;
+    background-color:#3882F6;
+    border: 1px solid white;
+    border-radius: 5px;
+    color:#E5E7EB;
+    font-weight: 900;
+    font-size: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+.copy-right-container
+{
+    flex-grow: 1;
+    align-self: flex-end;
+    padding: 8px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
 
 
